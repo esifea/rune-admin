@@ -1,0 +1,6 @@
+# Deployment toolchain which are included when MISE_ENV=deploy mise install
+[tools]
+terraform = "1.14"
+"aqua:aws/aws-cli" = "2"
+gcloud = "562"
+oci = "3"

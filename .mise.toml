@@ -9,12 +9,10 @@ buf = "1.66"
 node = "22"
 pnpm = "10"
 
-# ── Deployment tools (install with: mise install) ────────────────────
+# ── Deployment tools (terraform, aws-cli, gcloud, oci) ────────────────────
 # These are needed only for cloud deployment, not for local development.
-terraform = "1.14"
-"aqua:aws/aws-cli" = "2"
-gcloud = "562"
-oci = "3"
+# Live in .mise.deploy.toml; opt in with:
+#   MISE_ENV=deploy mise install
 
 [env]
 CGO_ENABLED = "1"
